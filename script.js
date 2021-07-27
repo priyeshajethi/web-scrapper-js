@@ -79,6 +79,7 @@ function getIssuesForRepo(fileName, data) {
   }
 }
 
+//creates pdf for each project
 function createPdfForEachProject(dirName, data) {
   var headers = createHeaders(["name", "link"]);
 
